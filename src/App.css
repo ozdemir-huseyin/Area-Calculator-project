@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  
+  background-color:brown;
+}
+.circle{
+  margin: 10px 20px;
+
+}
+.circle-top{
+  display: flex;
+
+ 
+}
+.circle-tittle{
+  color: wheat;
+}
+.circle-result{
+  color: wheat;
+}
+.circle-button{
+  background-color: bisque;
+  border-radius: 20px 5px; 
+  margin-left: 10px;
+  color: brown;
+}
+.circle-input{
+border-radius: 1px 40px; 
+  background-color: bisque;
+margin-left: 100px;
+padding-left: 20px;
+text-align: center;
+
+
+}
+.circle-input, placeholder{
+ color: brown;
+ font-size: 20px;
+ 
+}
+.circle-result{
+
+  margin-top: 20px;
+}
+
+/*********************rectangle calcultor********************************/
+.rectangle{
+  margin: 10px 20px;
+ box-sizing: border-box;
+}
+
+
+.rectangle-top{
+  display: flex;
+
+}
+.rectangle-tittle{
+  color: wheat;
+}
+.rectangle-input1{
+border-radius: 1px 40px; 
+background-color: bisque;
+margin-left: 41px;
+padding-left: 20px;
+text-align: center;
+width: 275px;
+display: block;
+}
+.rectangle-input1,placeholder{
+  color: brown;
+  font-size: 20px;
+}
+.rectangle-input2{
+  border-radius: 40px 1px; 
+  background-color: bisque;
+  margin-left: 50px;
+  padding-left: 20px;
+  text-align: center;
+  width: 275px;
+  margin-left: 330px;
+  height: 35px;
+  
+  margin-top:-20px;
+}
+.rectangle-input2,placeholder{
+  color: brown;
+  font-size: 20px;
+}
+.rectangle-button{
+  background-color: bisque;
+  border-radius: 20px 5px; 
+  color: brown;
+  margin-left: 615px;
+  display: block;
+  height: 38px;
+  margin-top: -25px;
+  
+
+ 
+
+}
+  .rectangle-result{
+    margin-top: 20px;
+    color: wheat;
+  }
+
+ 
+  /* <div className="rectangle"> 
+  <div className="rectangle-top">
+    <h1 className="rectangle-tittle"> Area of a rectangle</h1>
+    <input className="rectangle-input1" type="text" onChange={islem1} placeholder="uzunluk giriniz" />
+    <button className="rectangle-button" onClick={rectangleArea}>Hesapla</button>
+  </div>
+
+  
+  <input className="rectangle-input2" type="text" onChange={islem2}  placeholder="genislik giriniz" />
+  
+  <h1 className="rectangle-result">Result : {rectangle}</h1>
+
+</div> */
